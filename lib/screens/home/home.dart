@@ -1,7 +1,7 @@
 import 'package:csi_assign5/services/auth.dart';
 import 'package:flutter/material.dart';
 import 'package:csi_assign5/services/auth.dart';
-import 'package:csi_assign5/screens/slotbooking/sb.dart';
+
 class home extends StatefulWidget {
   const home({super.key});
 
@@ -58,9 +58,7 @@ class _homeState extends State<home> {
               children: <Widget>[
                 IconButton(
                     onPressed: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(builder: (context) => const slotbooking()));
+
 
                     },
                     icon: Image.asset('assets/mall1.webp'),

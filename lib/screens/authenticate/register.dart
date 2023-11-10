@@ -21,7 +21,7 @@ class _RegisterState extends State<Register> {
       appBar: AppBar(
         backgroundColor: Colors.brown[400],
         elevation: 0.0,
-        title: Text('Sign up to the app'),
+        title: Text('Sign up the app'),
         actions: <Widget>[
           TextButton.icon(
             onPressed: () {
